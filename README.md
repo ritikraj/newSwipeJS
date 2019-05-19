@@ -41,12 +41,10 @@ Step 3 : [OPTIONAL] Swipe() accepts an optional options 'object'
 
 // JS
 
+
 new Swipe( el, {
-            
             preventDefaultBehavior: true,
-            
             swipeX: false,
-            
             swipeY: true
 });
 
