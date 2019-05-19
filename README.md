@@ -7,11 +7,15 @@ Usage:
 Step 1 : call the Swipe() function with the element you want to track the single-touch directions
 
 // JS
+
 var el = document.querySelector('.element');
+
 new Swipe( el );
 
 // jQuery - it takes the first element of the jQuery Object (i.e, el[0] ). Use jQuery .each() to apply on all objects
+
 var $el = $(".element");
+
 new Swipe( el );
 
 Step 2 : newSwipeJS emits event for all four directions - up, down, left & right as swipedUp, swipedDown, swipedLeft, swipedRight. You can track all the events the same way you track click, touchstart etc.
